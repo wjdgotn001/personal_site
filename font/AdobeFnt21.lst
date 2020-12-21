@@ -1,0 +1,269 @@
+%!Adobe-FontList 1.20
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\개인사이트\Font\NotoSans\README
+FileModTime:1508840014
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\개인사이트\Font\NotoSans\LICENSE_OFL.txt
+FileModTime:1508840016
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansCJKkr-Black
+FamilyName:Noto Sans CJK KR
+StyleName:Black
+FullName:Noto Sans CJK KR Black
+MenuName:Noto Sans CJK KR Black
+StyleBits:0
+FamilyNameNative:Noto Sans CJK KR
+StyleNameNative:Black
+FullNameNative:Noto Sans CJK KR Black
+WritingScript:Korean
+OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansCJKkr-Black.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:17368992
+FileModTime:1434372544
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Noto Sans CJK KR Black
+NameArray:0,Win,1,Noto Sans CJK KR Black
+NameArray:0,Win,16,Noto Sans CJK KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansCJKkr-Bold
+FamilyName:Noto Sans CJK KR
+StyleName:Bold
+FullName:Noto Sans CJK KR Bold
+MenuName:Noto Sans CJK KR Bold
+StyleBits:0
+FamilyNameNative:Noto Sans CJK KR
+StyleNameNative:Bold
+FullNameNative:Noto Sans CJK KR Bold
+WritingScript:Korean
+OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansCJKkr-Bold.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:17027920
+FileModTime:1434372544
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Noto Sans CJK KR Bold
+NameArray:0,Win,1,Noto Sans CJK KR Bold
+NameArray:0,Win,16,Noto Sans CJK KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansCJKkr-DemiLight
+FamilyName:Noto Sans CJK KR
+StyleName:DemiLight
+FullName:Noto Sans CJK KR DemiLight
+MenuName:Noto Sans CJK KR DemiLight
+StyleBits:0
+FamilyNameNative:Noto Sans CJK KR
+StyleNameNative:DemiLight
+FullNameNative:Noto Sans CJK KR DemiLight
+WritingScript:Korean
+OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansCJKkr-DemiLight.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:16397784
+FileModTime:1434372544
+WeightClass:350
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Noto Sans CJK KR DemiLight
+NameArray:0,Win,1,Noto Sans CJK KR DemiLight
+NameArray:0,Win,16,Noto Sans CJK KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansCJKkr-Light
+FamilyName:Noto Sans CJK KR
+StyleName:Light
+FullName:Noto Sans CJK KR Light
+MenuName:Noto Sans CJK KR Light
+StyleBits:0
+FamilyNameNative:Noto Sans CJK KR
+StyleNameNative:Light
+FullNameNative:Noto Sans CJK KR Light
+WritingScript:Korean
+OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansCJKkr-Light.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:16273808
+FileModTime:1434372544
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Noto Sans CJK KR Light
+NameArray:0,Win,1,Noto Sans CJK KR Light
+NameArray:0,Win,16,Noto Sans CJK KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansCJKkr-Medium
+FamilyName:Noto Sans CJK KR
+StyleName:Medium
+FullName:Noto Sans CJK KR Medium
+MenuName:Noto Sans CJK KR Medium
+StyleBits:0
+FamilyNameNative:Noto Sans CJK KR
+StyleNameNative:Medium
+FullNameNative:Noto Sans CJK KR Medium
+WritingScript:Korean
+OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansCJKkr-Medium.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:16534292
+FileModTime:1434372544
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Noto Sans CJK KR Medium
+NameArray:0,Win,1,Noto Sans CJK KR Medium
+NameArray:0,Win,16,Noto Sans CJK KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansCJKkr-Regular
+FamilyName:Noto Sans CJK KR
+StyleName:Regular
+FullName:Noto Sans CJK KR Regular
+MenuName:Noto Sans CJK KR Regular
+StyleBits:0
+FamilyNameNative:Noto Sans CJK KR
+StyleNameNative:Regular
+FullNameNative:Noto Sans CJK KR Regular
+WritingScript:Korean
+OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansCJKkr-Regular.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:16457008
+FileModTime:1434372544
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Noto Sans CJK KR Regular
+NameArray:0,Win,1,Noto Sans CJK KR Regular
+NameArray:0,Win,16,Noto Sans CJK KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansCJKkr-Thin
+FamilyName:Noto Sans CJK KR
+StyleName:Thin
+FullName:Noto Sans CJK KR Thin
+MenuName:Noto Sans CJK KR Thin
+StyleBits:0
+FamilyNameNative:Noto Sans CJK KR
+StyleNameNative:Thin
+FullNameNative:Noto Sans CJK KR Thin
+WritingScript:Korean
+OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansCJKkr-Thin.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:15184072
+FileModTime:1434372544
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Noto Sans CJK KR Thin
+NameArray:0,Win,1,Noto Sans CJK KR Thin
+NameArray:0,Win,16,Noto Sans CJK KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansMonoCJKkr-Bold
+FamilyName:Noto Sans Mono CJK KR
+StyleName:Bold
+FullName:Noto Sans Mono CJK KR Bold
+MenuName:Noto Sans Mono CJK KR Bold
+StyleBits:0
+FamilyNameNative:Noto Sans Mono CJK KR
+StyleNameNative:Bold
+FullNameNative:Noto Sans Mono CJK KR Bold
+WritingScript:Korean
+OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansMonoCJKkr-Bold.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:17028296
+FileModTime:1434372550
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Noto Sans Mono CJK KR Bold
+NameArray:0,Win,1,Noto Sans Mono CJK KR Bold
+NameArray:0,Win,16,Noto Sans Mono CJK KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSansMonoCJKkr-Regular
+FamilyName:Noto Sans Mono CJK KR
+StyleName:Regular
+FullName:Noto Sans Mono CJK KR Regular
+MenuName:Noto Sans Mono CJK KR Regular
+StyleBits:0
+FamilyNameNative:Noto Sans Mono CJK KR
+StyleNameNative:Regular
+FullNameNative:Noto Sans Mono CJK KR Regular
+WritingScript:Korean
+OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansMonoCJKkr-Regular.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:16457388
+FileModTime:1434372550
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Noto Sans Mono CJK KR Regular
+NameArray:0,Win,1,Noto Sans Mono CJK KR Regular
+NameArray:0,Win,16,Noto Sans Mono CJK KR
+%EndFont
+
