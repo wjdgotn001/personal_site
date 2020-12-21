@@ -184,7 +184,11 @@ button { width:25px; height:50px; background-color: chartreuse; }
 
 .contact_area > dl { width:70%; height:100%; margin:auto; background-color: burlywood; }
 
-.contact_area > dl > dt { }
+.contact_area > dl > dt:nth-child(1) { background-image: url(../img/icon/me.pdf);}
+.contact_area > dl > dt:nth-child(2) { background-image: url(../img/icon/call.pdf);}
+.contact_area > dl > dt:nth-child(3) { background-image: url(../img/icon/address.pdf);}
+.contact_area > dl > dt:nth-child(4) { background-image: url(../img/icon/email.pdf);}
+.contact_area > dl > dt:nth-child(5) { background-image: url(../img/icon/git.pdf);}
 
 .contact_area > dl > dd { }
 
