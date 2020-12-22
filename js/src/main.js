@@ -41,7 +41,7 @@ var headDiv = headLi.find('.icon');
 
 
 
-// 헤더고정===================================
+// 헤더고정 ===================================
 var scr = true;
 var headNav;
 var navContent = '<nav id="headNav"></nav>';
@@ -64,21 +64,18 @@ win.on('scroll',function(e){
         //before안에 들어있는 내용을 삭제해라.
         scr = true;
         headNav.remove();
-        menuArea.find('ul').append(headLi);
+        menuArea.append(headUl);
+        
     }
 });
 
 
 
-
-
-
-
-
-// var headTab = headBox.find('.tab');
+// 탭메뉴 ==================================
+// var tab = headUl.find('.tab');
 // var conWrap = wrap.children('.con_wrap');
 
-// headTab.on('click',['a'],function(e){
+// tab.on('click',['a'],function(e){
 //     e.preventDefault();
 
 //     about.hide();
