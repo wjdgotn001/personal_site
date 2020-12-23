@@ -24,7 +24,7 @@ address { font-style:none; }
 abbr { text-decoration:none; }
 
 a:hover, a:focus,
-button:hover, button:focus { position: relative; z-index:500; outline:3px solid #f07;}
+button:hover, button:focus { position: relative; z-index:500; }
 
 
 /* form영역 */

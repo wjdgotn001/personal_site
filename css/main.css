@@ -8,11 +8,51 @@
     background-position: 50% 50%;
     background-size:contain; }
 
-#headBox li:nth-child(1) .icon { background-image: url(../img/icon/aboutme.png);}
-#headBox li:nth-child(2) .icon { background-image: url(../img/icon/process.png);}
+/* #headBox li:nth-child(1) .icon { background-image: url(../img/icon/aboutme.png);} */
+/* #headBox li:nth-child(2) .icon { background-image: url(../img/icon/process.png);} */
 #headBox li:nth-child(3) .icon { background-image: url(../img/icon/project.png);}
 #headBox li:nth-child(4) .icon { background-image: url(../img/icon/contact.png);}
+
+/* animation======================== */
+#headBox li img { width:100%; height:100%;}
+/* 1 aboutMe */
+@keyframes rotation {
+    from { transform:rotate(0deg);}
+    to   { transform:rotate(359deg);} }
+
+#headBox li:nth-child(1):hover img { animation: rotation 3s infinite linear;}
+
+/* 2 process */
+@keyframes pencil {
+    0%{transform:rotate(-45deg);}
+    40%{transform:rotate(25deg);}
+    50%{transform:rotate(15deg);}
+    60%{transform:rotate(25deg);}
+    70%{transform:rotate(15deg);}
+    80%{transform:rotate(25deg);}
+    90%{transform:rotate(15deg);}
+    100%{transform:rotate(25deg);} }
     
+#headBox li:nth-child(2):hover img { animation: pencil 3s forwards;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #main { 
     background-image: url(../img/main.jpg);
@@ -68,7 +108,7 @@
     width: 100%; height:80px; margin-bottom:5px; 
     background-color: #fff; border-radius:20%;  }
 
-.menu_area a > span { display: block; width: 100%; height:auto;  text-shadow: 2px 1px 2px #333; }
+.menu_area a > span { display: block; width: 100%; height:auto;  text-shadow: 1px 1px 1px #333; }
 
 
 /* ==============action============= */
@@ -112,12 +152,14 @@
     font-size:13px; color:#fff;  }
 
 p.on:after { 
+    position: absolute; top:2px;
     content:" "; display:inline-block; 
     width:2px; height:13px; background-color: #e9e9e9;}
 
 
 
 /* about ========================== */
+.about_wrap { width:100%; height:auto;}
 #about { 
     width:100%; height:auto; min-height:500px;
     padding:45px 10px 0; box-sizing: border-box; }
@@ -156,7 +198,7 @@ p.on:after {
 
 
 /* con_wrap */
-.con_wrap { display:none;  width: 100%; height:auto; }
+.con_wrap { width: 100%; height:auto; }
 #process { 
     position: relative;
     width:100%; height:auto; min-height:600px;
@@ -207,6 +249,7 @@ button {
 
 .project_area > ul > li { 
     width:100%; height:450px; margin-bottom:40px; border:1px solid #6a6a6a;  }
+.project_area a { display:block; width: 100%; height: 100%; }
 
 .project_img { 
     width:100%; height:300px; 
@@ -288,13 +331,13 @@ button {
 
 #headBox > .menu_area { 
     position: absolute; bottom:0; left:50%; transform: translate(-50%);
-    width:470px; height:120px; }
+    width:475px; height:120px; }
 
 .menu_area > ul { width:100%; height:100%; } 
 
 .menu_area > ul > li { 
     float: left; width:94px; max-width:96px; height:100%;
-    margin-right:31px; text-align: center;
+    margin-right:33px; text-align: center;
     font-size:15px; text-transform: uppercase; } 
     
 .menu_area > ul > li:last-child { margin-right:0; }    
@@ -307,7 +350,7 @@ button {
 
 .menu_area a > span { 
     display:block; width: 100%; height:auto; 
-    color:#fff; text-shadow: 1px 2px 1px #333; }    
+    color:#fff; text-shadow: 1px 1px 2px #333; }    
 
 
 /* ==============action============= */
@@ -350,11 +393,13 @@ button {
     width:350px; height:auto; text-align: center;
     font-size:16px; color:#fff; }
 
-    p.on:after { 
-        content:" "; display:inline-block; 
-        width:2px; height:16px; background-color: #e9e9e9;}
+p.on:after { 
+    position: absolute; top:3px;
+    content:" "; display:inline-block; 
+    width:2px; height:16px; background-color: #e9e9e9;}
 
 /* about ====================== */
+.about_wrap { width:100%; height:auto;}
 #about { 
     width:100%; height:auto; min-height:500px; 
     padding:50px 4.4680vw 20px; box-sizing: border-box; }
@@ -392,7 +437,7 @@ button {
 
 
 /* con_wrap */
-.con_wrap { display:none; width:100%; height:auto; }
+.con_wrap { width:100%; height:auto; }
 #process { 
     position: relative;
     width:100%; height:auto; min-height:650px; 
@@ -443,6 +488,8 @@ button {
 
 .project_area li:nth-child(2) .project_img { float: right;}
 .project_area li:nth-child(2) .project_con { float: left;}
+
+.project_area a { display:block; width: 100%; height: 100%; }
 
 .project_img { 
     float: left; width:50%; height:100%;
@@ -537,7 +584,7 @@ button {
 
 .menu_area span { 
     display: block; width: 100%; height:40px; 
-    text-shadow: 2px 2px 1px #333;
+    text-shadow: 1px 1px 2px #333;
     line-height: 40px; color:#fff; }
  
 
@@ -558,9 +605,10 @@ button {
     position: absolute; top:340px; left:50%; transform: translate(-50%);
     font-size: 25px; color:#fff; }
 
-    p.on:after { 
-        content:" "; display:inline-block; 
-        width:2px; height:25px; background-color: #e9e9e9;}
+p.on:after { 
+    position: absolute; top:5px;
+    content:" "; display:inline-block; 
+    width:2px; height:25px; background-color: #e9e9e9;}
 
 /* ==============action============= */
 #headNav.action { 
@@ -585,6 +633,7 @@ button {
 
 
 /* about ================= */
+.about_wrap { width:100%; height:auto;}
 #about { 
     width:100%; height:auto; min-height:500px; 
     padding:50px 10px; box-sizing: border-box; }
@@ -618,7 +667,7 @@ button {
 #skill > .line { margin-left:50px; }
 
 /* con_wrap*/
-.con_wrap { display:none; width:100%; height:auto; }
+.con_wrap { width:100%; height:auto; }
 #process { 
     position: relative;
     width:100%; height:auto; min-height:800px; 
@@ -666,6 +715,8 @@ button {
 
 .project_area li:nth-child(2) .project_img { float: right;}
 .project_area li:nth-child(2) .project_con { float: left;}
+
+.project_area a { display:block; width: 100%; height: 100%; }
 
 .project_area .project_img { 
     background-position:50% 50%;
