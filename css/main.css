@@ -11,7 +11,7 @@
 /* #headBox li:nth-child(1) .icon { background-image: url(../img/icon/aboutme.png);} */
 /* #headBox li:nth-child(2) .icon { background-image: url(../img/icon/process.png);} */
 #headBox li:nth-child(3) .icon { background-image: url(../img/icon/project.png);}
-#headBox li:nth-child(4) .icon { background-image: url(../img/icon/contact.png);}
+/* #headBox li:nth-child(4) .icon { background-image: url(../img/icon/contact_.png);} */
 
 /* animation======================== */
 #headBox li img { width:100%; height:100%;}
@@ -33,7 +33,29 @@
     90%{transform:rotate(15deg);}
     100%{transform:rotate(25deg);} }
     
-#headBox li:nth-child(2):hover img { animation: pencil 3s forwards;}
+#headBox li:nth-child(2):hover img { animation: pencil 3s forwards; }
+
+#headBox li:nth-child(3):hover img { 
+    background-image: url(../img/icon/project_.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+
+ }
+
+#headBox li:nth-child(4):hover img { transform: scale(1.2); }
+#headBox li:nth-child(4) img { transition:all 500ms linear; }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
