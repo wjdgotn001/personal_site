@@ -34,44 +34,54 @@
 <body>
   <!-- layout -->
   <div id="wrap">
-    <header id="header">
-      <h1 class="hidden_wrap"><a href="#">logo</a></h1>
+    <header id="headBox">
+      <h1 class="hidden_wrap"><a href="#">portfolio</a></h1>
       <div class="menu_area">
         <ul>
-          <li>
-            <a href="#">
-              <div class="icon"></div>
+          <!-- <li>
+            <a href="./main.html">
+              <div class="icon">
+                <img src="../img/icon/aboutme.png" alt="aboutMe">
+              </div>
               <span>about me</span>
             </a>
           </li>
-          <li>
-            <a href="#">
-              <div class="icon"></div>
+          <li class="tab">
+            <a href="./main.html">
+              <div class="icon">
+                <img src="../img/icon/process.png" alt="process">
+              </div>
               <span>process</span>
             </a>
           </li>
-          <li>
-            <a href="#">
-              <div class="icon"></div>
-              <span>product</span>
+          <li class="tab">
+            <a href="./main.html">
+              <div class="icon">
+                <img src="../img/icon/project.png" alt="project">
+              </div>
+              <span>project</span>
             </a>
           </li>
-          <li>
-            <a href="#">
-              <div class="icon"></div>
+          <li class="tab">
+            <a href="./main.html">
+              <div class="icon">
+                <img src="../img/icon/contact.png" alt="contact">
+              </div>
               <span>contact</span>
             </a>
-          </li>
+          </li> -->
         </ul>
+        
       </div>
     </header>
 
-    <section id="main">
-      <h2>jeong hae su <span>portfolio</span></h2>
+    <section id="main" class="action">
+      <h2>jeong hae su<br><span>portfolio</span></h2>
       <p>신입 웹퍼블리셔 정해수 포트폴리오입니다.</p>
     </section>
 
-    <section id="about">
+    <div class="about_wrap">
+     <section id="about">
       <h2>about me</h2>
       <div class="line"></div>
       <div class="profile_area">
@@ -81,16 +91,182 @@
          <p>
           정해수(丁  海  秀)<br>
           1996.02.12(만 25세)<br>
+          010.3280.2488<br>
           wjdgotn001@gmail.com<br>
           https://github.com/wjdgotn001<br>
-          컴퓨터 그래픽스 운용기능사
         </p>
       </div>
       </div>
 
-    </section>
+     </section>
+    
 
-    <section id="skill"></section>
+     <section id="skill">
+      <h2>skill</h2>
+      <div class="line"></div>
+      <div class="skills">
+        <div class="skill" id="html">
+          <div class="circle-mask-outer left">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="circle-mask-outer right">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="chart-content">
+            <p class="text">
+                <span class="percent-number">90</span><span class="percent-symbol">%</span>
+            </p>
+        </div>
+        <span class="name">html</span>
+        <span class="contents">시멘틱 태그 <br> 사용</span>
+        </div>
+        
+        <div class="skill" id="css">
+          <div class="circle-mask-outer left">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="circle-mask-outer right">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="chart-content">
+            <p class="text">
+                <span class="percent-number">85</span><span class="percent-symbol">%</span>
+            </p>
+        </div>
+        <span class="name">css</span>
+        <span class="contents">반응형 웹 구현</span>
+        </div>
+
+        <div class="skill" id="javascript(jquery)">
+          <div class="circle-mask-outer left">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="circle-mask-outer right">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="chart-content">
+            <p class="text">
+                <span class="percent-number">70</span><span class="percent-symbol">%</span>
+            </p>
+        </div>
+        <span class="name">javascript<br>(jquery)</span>
+        <span class="contents">반응형 웹 구현</span>
+        </div>
+
+        <div class="skill" id="illustrator">
+          <div class="circle-mask-outer left">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="circle-mask-outer right">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="chart-content">
+            <p class="text">
+                <span class="percent-number">95</span><span class="percent-symbol">%</span>
+            </p>
+        </div>
+        <span class="name">illustrator</span>
+        <span class="contents">드로잉 툴<br>레이아웃 구성 및 편집</span>
+        </div>
+
+        <div class="skill" id="photoshop">
+          <div class="circle-mask-outer left">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="circle-mask-outer right">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="chart-content">
+            <p class="text">
+                <span class="percent-number">85</span><span class="percent-symbol">%</span>
+            </p>
+        </div>
+        <span class="name">photoshop</span>
+        <span class="contents">사진보정 및 <br>이미지 합성</span>
+        </div>
+
+        <div class="skill" id="indesign">
+          <div class="circle-mask-outer left">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="circle-mask-outer right">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="chart-content">
+            <p class="text">
+                <span class="percent-number">40</span><span class="percent-symbol">%</span>
+            </p>
+        </div>
+        <span class="name">indesign</span>
+        <span class="contents">인쇄용페이지 <br>출력</span>
+        </div>
+
+        <div class="skill" id="ms office">
+          <div class="circle-mask-outer left">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="circle-mask-outer right">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="chart-content">
+            <p class="text">
+                <span class="percent-number">85</span><span class="percent-symbol">%</span>
+            </p>
+        </div>
+        <span class="name">ms office</span>
+        <span class="contents">문서작업 및 <br>편집</span>
+        </div>
+
+        <div class="skill" id="git">
+          <div class="circle-mask-outer left">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="circle-mask-outer right">
+            <div class="circle-mask-inner">
+                <div class="circle-body"></div>
+            </div>
+        </div>
+        <div class="chart-content">
+            <p class="text">
+                <span class="percent-number">90</span><span class="percent-symbol">%</span>
+            </p>
+        </div>
+        <span class="name">git</span>
+        <span class="contents">작업내역 저장 <br>및 폴더 관리</span>
+        </div>
+      </div>
+     </section>
+    </div>
 
     <div class="con_wrap">
       <section id="process">
@@ -104,8 +280,8 @@
           아이디어를 도출합니다. 
         </p>
         <div class="slide_btn">
-          <button type="button" class="next"><span>다음 버튼</span></button>
-          <button type="button" class="prev"><span>이전 버튼</span></button>
+          <button type="button" class="next"><span class="hidden_context">다음 버튼</span></button>
+          <button type="button" class="prev"><span class="hidden_context">이전 버튼</span></button>
         </div>
 
         <div class="slide_area">
@@ -124,6 +300,7 @@
         <div class="project_area">
           <ul>
              <li>
+              <a href="#">
               <div class="project_img"></div>
               <div class="project_con">
                   <span class="num">01<br>나뚜루<br>natuur</span>
@@ -131,12 +308,14 @@
                     반응형 웹<br>
                     디자인100%<br>
                     퍼블리싱100%<br>
-                    main page, sub page1-3
+                    main page / sub page1-3
                   </span>
               </div>
+              </a>
              </li>
 
              <li>
+              <a href="#">
               <div class="project_img"></div>
               <div class="project_con">
                   <span>02<br>코레일<br>korail</span>
@@ -144,12 +323,14 @@
                     반응형 웹<br>
                     디자인100%<br>
                     퍼블리싱100%<br>
-                    main page, sub page1
+                    main page / sub page1
                   </span>
               </div>
+              </a>
              </li>
 
              <li>
+              <a href="#">
               <div class="project_img"></div>
               <div class="project_con">
                   <span>03<br>나뚜루<br>natuur</span>
@@ -160,6 +341,7 @@
                     main page
                   </span>
               </div>
+              </a>
              </li>
           </ul>
         </div>
@@ -169,23 +351,19 @@
         <div class="line"></div>
         <div class="contact_area">
           <dl>
-            <dt><span class="hidden_context">아이콘_01</span></dt>
+            <dt><span class="hidden_context">이름</span></dt>
             <dd>정해수</dd>
           </dl>
           <dl>
-            <dt><span class="hidden_context">아이콘_02</span></dt>
-            <dd>010.3280.2488</dd>
-          </dl>
-          <dl>
-            <dt><span class="hidden_context">아이콘_03</span></dt>
+            <dt><span class="hidden_context">집주소</span></dt>
             <dd>경기도 화성시 안녕동</dd>
           </dl>
           <dl>
-            <dt><span class="hidden_context">아이콘_04</span></dt>
-            <dd><a href="https://www.naver.com/">wjdgotn001@gmial.com</a></dd>
+            <dt><span class="hidden_context">메일</span></dt>
+            <dd><a href="https://www.naver.com/">wjdgotn001@gmail.com</a></dd>
           </dl>
            <dl>
-            <dt><span class="hidden_context">아이콘_05</span></dt>
+            <dt><span class="hidden_context">깃주소</span></dt>
             <dd><a href="https://github.com/wjdgotn001">https://github.com/wjdgotn001</a></dd>
           </dl>
         </div>
@@ -193,6 +371,7 @@
     </div>
 
     <footer id="footer">
+      <h2 class="hidden_context">portfolio-info</h2>
       <p>ⓒ2021 정해수 all rights reserved</p>
       <p>본 사이트는 상업적 목적이 아닌 개인 포트폴리오 사이트로 제작되었습니다.</p>
 
@@ -208,5 +387,6 @@
   <!-- <script src="../font/fontawesome/js/all.js"></script>   -->
   <!-- <script src="../js/src/responsive.js"></script> -->
   <!-- <script src="../js/src/responsive_import.js"></script> -->
+  <script src="../js/src/main.js"></script>
  </body>
 </html>
