@@ -311,7 +311,7 @@ button {
     background-size: contain; }
 
 .project_area li:nth-child(1) .project_img { background-image: url(../img/natuur_project.png);}
-.project_area li:nth-child(2) .project_img { background-image: url(../img/natuur_project.png);}
+.project_area li:nth-child(2) .project_img { background-size: 102%; background-image: url(../img/korail_project.png);}
 .project_area li:nth-child(3) .project_img { background-image: url(../img/natuur_project.png);}
  
 .project_con { 
@@ -607,8 +607,10 @@ button {
     background-repeat: no-repeat;
     background-size: contain; }
 
-.project_area li:nth-child(1) .project_img { background-image: url(../img/natuur_project.png); }
-.project_area li:nth-child(2) .project_img { background-image: url(../img/natuur_project.png); }
+.project_area li:nth-child(1) .project_img { 
+    background-size:90%; background-image: url(../img/natuur_project.png); }
+
+.project_area li:nth-child(2) .project_img { background-image: url(../img/korail_project.png); }
 .project_area li:nth-child(3) .project_img { background-image: url(../img/natuur_project.png); }
 
 .project_con { 
@@ -833,21 +835,6 @@ p.on:after {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* con_wrap*/
 .con_wrap { width:100%; height:auto; }
 #process { 
@@ -905,8 +892,10 @@ button {
     background-size: contain;
     background-repeat: no-repeat; }
 
-.project_area li:nth-child(1) .project_img { background-image: url(../img/natuur_project.png);}
-.project_area li:nth-child(2) .project_img { background-image: url(../img/natuur_project.png);}
+.project_area li:nth-child(1) .project_img { 
+    background-size:85% auto; background-image: url(../img/natuur_project.png);}
+
+.project_area li:nth-child(2) .project_img { background-image: url(../img/korail_project.png);}
 .project_area li:nth-child(3) .project_img { background-image: url(../img/natuur_project.png);}
     
 .project_img { float: left; width:50%; height:100%; }
