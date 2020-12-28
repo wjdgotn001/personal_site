@@ -863,8 +863,19 @@ button {
 .slide_btn .prev { float: left; background-image: url(../img/icon/prev_btn.png); }
     
 .slide_area { 
+    overflow: hidden;
     position: absolute; left:50%; transform: translateX(-50%);
     width:900px; height:450px; background-color: darkcyan; }
+
+.slide_area > ul { width:500%; height:100%; }
+.slide_area > ul > li { float: left; width:20%; height:100%; }
+
+.process_01 { background-color: #af4;}
+.process_02 { background-color: #aa0;}
+.process_03 { background-color: #aff;}
+.process_04 { background-color: #ada;}
+.process_05 { background-color: #a77;}
+
 
 /* ================= */
 #project { 

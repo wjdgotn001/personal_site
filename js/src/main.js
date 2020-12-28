@@ -111,6 +111,62 @@ setInterval(function(){
 }, 500); //setInterval
 
 
+// process_slide
+var process = $('#process');
+var slideBtnBox = process.children('.slide_btn');
+var slideBtn = slideBtnBox.children('button');
+
+var slideArea = process.children('.slide_area');
+var slideUl = slideArea.children('ul');
+var slideLi = slideUl.children('li');
+
+//마지막요소 복제하여 앞에 붙임 - 전체가로값 변경, 내부 li크기변경
+var liClone = slideLi.eq(-1).clone(true);
+slideUl.prepend(liClone);
+var liCloneAfter = slideUl.children('li');
+slideUl.css({'width':slideLi.length*100+'%', 'position':'relative', 'left':'-100%'});
+liCloneAfter.css({'width':100/liCloneAfter +'%'});
+
+//공통변수
+var slideN = 0;
+var permission = true; //허가하다.
+var timed = 500;
+
+slideBtn.on('click, focus',function(e){
+    e.preventDefault();
+    if(permission){ 
+        permission = false; 
+        var it = $(this);
+        var itAttr = it.attr('class');
+        if(itAttr === 'next'){
+            if(slideN >= slideLi.length-1){
+                slideN = -1;
+                slideUl.css({marginLeft:slideN*-100+'%'});
+            }
+            slideN += 1;
+
+        }else if(itAttr === 'prev'){
+            slideN -= 1;
+        }
+        //통합
+        slideUl.animate({marginLeft:slideN*-100+'%'},function(){
+            if(slideN <= -1){
+                slideN = slideLi.length-1;
+                slideUl.css({marginLeft:slideN*-100+'%'});
+            }
+            setTimeout(function(){
+                permission = true;
+            }, timed/5);
+        });
+        
+    }//if(permission)
+});
+
+
+
+
+
+
 
 // skill
 var skill = $('.skill');
