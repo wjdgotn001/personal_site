@@ -114,7 +114,12 @@ setInterval(function(){
 
 // skill
 var skill = $('.skill');
+var win = $(window);
+var scrollTop = win.scrollTop();
+var skillOffset =  skill.offset().top;
+var winH = win.outerHeight() / 2;
 
+var SkillFn = function(){
 // 원형 차트 당 처리
 skill.each(function(){
     var it = $(this);
@@ -148,13 +153,21 @@ skill.each(function(){
 
     });
 });//skill.each
+}
+// SkillFn();
 
 
 
+win.on('scroll',function(e){
+    var getScroll = win.scrollTop() + winH;
+    console.log(getScroll);
 
+    if(getScroll >= skillOffset ){
+        SkillFn();
 
-
-
+    }
+  
+});
 
 
 
