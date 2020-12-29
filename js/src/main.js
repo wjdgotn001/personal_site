@@ -124,15 +124,15 @@ var slideLi = slideUl.children('li');
 var liClone = slideLi.eq(-1).clone(true);
 slideUl.prepend(liClone);
 var liCloneAfter = slideUl.children('li');
-slideUl.css({'width':slideLi.length*100+'%', 'position':'relative', 'left':'-100%'});
-liCloneAfter.css({'width':100/liCloneAfter +'%'});
+slideUl.css({'width':liCloneAfter.length*100+'%', 'position':'relative', 'left':'-100%'});
+liCloneAfter.css({'width':100/liCloneAfter.length +'%'});
 
 //공통변수
 var slideN = 0;
 var permission = true; //허가하다.
 var timed = 500;
 
-slideBtn.on('click, focus',function(e){
+slideBtn.on('click',function(e){
     e.preventDefault();
     if(permission){ 
         permission = false; 
@@ -213,16 +213,14 @@ skill.each(function(){
 // SkillFn();
 
 
-
+var move = true;
 win.on('scroll',function(e){
     var getScroll = win.scrollTop() + winH;
-    console.log(getScroll);
-
-    if(getScroll >= skillOffset ){
-        SkillFn();
-
+    // console.log(skillOffset);
+    if(getScroll >= skillOffset && move){
+        move = false;
+         SkillFn();
     }
-  
 });
 
 

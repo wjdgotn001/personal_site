@@ -267,7 +267,7 @@ p.on:after {
 .slide_area { 
     overflow: hidden;
     position: absolute; left:50%; transform: translate(-50%);
-    width:80%; height:300px; background-color: aqua; }
+    width:80%; height:300px; }
 
 .slide_area > ul { width:500%; height:100%; background-color: blue; }
 .slide_area > ul > li { float: left; width:20%; height:100%; }
@@ -285,6 +285,16 @@ button {
 
 .slide_btn .next { float: right; background-image: url(../img/icon/next_btn.png); }
 .slide_btn .prev { float: left; background-image: url(../img/icon/prev_btn.png); }
+
+
+.process_01 { background-color: #af4;}
+.process_02 { background-color: #aa0;}
+.process_03 { background-color: #aff;}
+.process_04 { background-color: #ada;}
+.process_05 { background-color: #a77;}
+
+
+
 
 
 /* ================= */
@@ -575,8 +585,19 @@ button {
     
 
 .slide_area { 
+    overflow: hidden;
     position: absolute; left:50%; transform: translate(-50%);
-    width:80%; max-width:650px; height:350px; background-color: coral; } 
+    width:80%; max-width:650px; height:350px; } 
+
+.slide_area > ul { width: 500%; height:100%; }
+.slide_area > ul > li { float: left; width: 20%; height:100%; }
+
+
+.process_01 { background-color: #af4;}
+.process_02 { background-color: #aa0;}
+.process_03 { background-color: #aff;}
+.process_04 { background-color: #ada;}
+.process_05 { background-color: #a77;}   
 
 
 /* ===================== */
@@ -865,7 +886,7 @@ button {
 .slide_area { 
     overflow: hidden;
     position: absolute; left:50%; transform: translateX(-50%);
-    width:900px; height:450px; background-color: darkcyan; }
+    width:900px; height:450px; }
 
 .slide_area > ul { width:500%; height:100%; }
 .slide_area > ul > li { float: left; width:20%; height:100%; }
