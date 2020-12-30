@@ -261,23 +261,31 @@ p.on:after {
     text-align: center; font-size: 30px; 
     text-transform: uppercase; margin-bottom:10px; }
 
-
 #process > p { font-size:13px; text-align: center; line-height:18px; margin-bottom:15px; }
+
+.file { 
+    width:80px; height:25px; 
+    margin:auto; margin-top:10px; margin-bottom:25px; 
+    text-align: center; line-height:25px; font-size:12px;
+    text-transform: uppercase; color:#fff; font-weight: 600;
+    background-color: #6884c2; }
+
+.file > a { display:block; width: 100%; height: 100%; }
 
 .slide_area { 
     overflow: hidden;
     position: absolute; left:50%; transform: translate(-50%);
-    width:80%; height:300px; }
+    width:80%; max-width:380px; height:260px; }
 
-.slide_area > ul { width:500%; height:100%; background-color: blue; }
+.slide_area > ul { width:500%; height:100%; }
 .slide_area > ul > li { float: left; width:20%; height:100%; }
 
 .slide_btn { 
-    position: absolute; top:60%; left:50%; transform: translateX(-50%);
-    width:95%; height:0; background-color: burlywood; }
+    position: absolute; top:64%; left:50%; transform: translateX(-50%);
+    width:95%; height:0; }
 
 button { 
-    width:25px; height:50px;
+    width:25px; height:40px;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size:contain; 
@@ -286,8 +294,12 @@ button {
 .slide_btn .next { float: right; background-image: url(../img/icon/next_btn.png); }
 .slide_btn .prev { float: left; background-image: url(../img/icon/prev_btn.png); }
 
+.slide_area li {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size:cover; }
 
-.process_01 { background-color: #af4;}
+.process_01 { background-image: url(../img/process_01.jpg); }
 .process_02 { background-color: #aa0;}
 .process_03 { background-color: #aff;}
 .process_04 { background-color: #ada;}
@@ -311,7 +323,11 @@ button {
 .project_area > ul { width:100%; height:100%; }
 
 .project_area > ul > li { 
-    width:100%; height:450px; margin-bottom:40px; border:1px solid #6a6a6a;  }
+    width:100%; height:450px; 
+    margin-bottom:40px; border:1px solid #6a6a6a;
+    box-sizing: border-box;
+  }
+
 .project_area a { display:block; width: 100%; height: 100%; }
 
 .project_img { 
@@ -331,7 +347,7 @@ button {
     padding:4.3478vw;/*20px*/ box-sizing: border-box;  
     background-color: #6884c2; }
 
- .project_con span { color:#fff; font-size:15px; }   
+.project_con span { color:#fff; font-size:15px; }   
 
 .project_con span:first-child { float: left; font-size:17px; line-height:20px; }
 
@@ -398,13 +414,13 @@ button {
 
 #headBox > .menu_area { 
     position: absolute; bottom:0; left:50%; transform: translate(-50%);
-    width:475px; height:120px; }
+    width:445px; height:120px; }
 
 .menu_area > ul { width:100%; height:100%; } 
 
 .menu_area > ul > li { 
     float: left; width:94px; max-width:96px; height:100%;
-    margin-right:33px; text-align: center;
+    margin-right:23px; text-align: center;
     font-size:15px; text-transform: uppercase; } 
     
 .menu_area > ul > li:last-child { margin-right:0; }    
@@ -564,7 +580,7 @@ p.on:after {
 .con_wrap { width:100%; height:auto; }
 #process { 
     position: relative;
-    width:100%; height:auto; min-height:650px; 
+    width:100%; height:auto; min-height:730px; 
     padding:50px 4.4680vw;/*42px*/ box-sizing: border-box; }
 
 #process > h2 { 
@@ -574,9 +590,18 @@ p.on:after {
 
 #process > p { font-size:15px; text-align: center; margin-bottom:15px; line-height:23px; }
 
+.file { 
+    width:90px; height:35px; 
+    margin:auto; margin-top:15px; margin-bottom:35px; 
+    text-align: center; line-height:35px; font-size:13px;
+    text-transform: uppercase; color:#fff; font-weight: 600;
+    background-color: #6884c2; }
+
+.file > a { display:block; width: 100%; height: 100%; }
+
 .slide_btn { 
-    position: absolute; top:60%; left:50%; transform: translateX(-50%);
-    width:90%; max-width:940px; height:0; background-color: crimson; }
+    position: absolute; top:62%; left:50%; transform: translateX(-50%);
+    width:93%; max-width:820px; height:0; }
 
 button { 
     width:25px; height:50px;
@@ -591,14 +616,18 @@ button {
 .slide_area { 
     overflow: hidden;
     position: absolute; left:50%; transform: translate(-50%);
-    width:80%; max-width:650px; height:350px; } 
+    width:62vw; min-width:390px; max-width:550px; height:300px; } 
 
 .slide_area > ul { width: 500%; height:100%; }
 .slide_area > ul > li { float: left; width: 20%; height:100%; }
 
+.slide_area li {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; }
 
-.process_01 { background-color: #af4;}
-.process_02 { background-color: #aa0;}
+.process_01 { background-image: url(../img/process_01.jpg); }
+/* .process_02 { background-color: #aa0;} */
 .process_03 { background-color: #aff;}
 .process_04 { background-color: #ada;}
 .process_05 { background-color: #a77;}   
@@ -619,7 +648,7 @@ button {
 
 .project_area > ul { width:100%; height:100%; }
 
-.project_area > ul > li { width:100%; height:250px; margin-bottom:15px; border:1px solid #6a6a6a; }
+.project_area > ul > li { width:100%; height:250px; margin-bottom:30px; border:1px solid #6a6a6a; }
 
 .project_area li:nth-child(2) .project_img { float: right;}
 .project_area li:nth-child(2) .project_con { float: left;}
@@ -877,18 +906,16 @@ p.on:after {
 
 .file { 
     width:150px; height:50px; 
-    margin:auto; margin-top:25px; margin-bottom: 25px;
+    margin:auto; margin-top:25px; margin-bottom: 45px;
     text-align: center; line-height:50px; font-size:20px;
     text-transform: uppercase; color:#fff; font-weight: 600;
     background-color: #6884c2; }
 
 .file > a { display:block; width: 100%; height: 100%; }
 
-
 .slide_btn { 
     position: absolute; top:58%; left:50%; transform: translate(-50%); 
-    width:95%; max-width:1100px; height:0; }
-
+    width:75%; max-width:900px; height:0; }
 
 button { 
     width:35px; height:60px;
@@ -902,12 +929,17 @@ button {
 .slide_area { 
     overflow: hidden;
     position: absolute; left:50%; transform: translateX(-50%);
-    width:900px; height:450px; }
+    width:620px; height:380px; }
 
 .slide_area > ul { width:500%; height:100%; }
 .slide_area > ul > li { float: left; width:20%; height:100%; }
 
-.process_01 { background-color: #af4;}
+.slide_area li {
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+     background-size: 100%; }
+
+.process_01 { background-image: url(../img/process_01.jpg); }
 .process_02 { background-color: #aa0;}
 .process_03 { background-color: #aff;}
 .process_04 { background-color: #ada;}
@@ -928,7 +960,7 @@ button {
     
 .project_area > ul { width:100%; height:100%; }
     
-.project_area > ul > li { width:100%; height:250px; margin-bottom:15px; border:1px solid #6a6a6a; }
+.project_area > ul > li { width:100%; height:250px; margin-bottom:30px; border:1px solid #6a6a6a; }
 
 .project_area li:nth-child(2) .project_img { float: right;}
 .project_area li:nth-child(2) .project_con { float: left;}
