@@ -314,7 +314,7 @@ button {
 
 /* ================= */
 #project { 
-    width:100%; height:auto; min-height:1500px;
+    width:100%; height:auto; min-height:1200px;
     padding:50px 10px 0; box-sizing: border-box; }
 
 #project > h2 { 
@@ -326,39 +326,51 @@ button {
 .project_area > ul { width:100%; height:100%; }
 
 .project_area > ul > li { 
-    width:100%; height:450px; 
+    width:100%; height:auto; 
     margin-bottom:40px; border:1px solid #6a6a6a;
-    box-sizing: border-box;
-  }
+    box-sizing: border-box; }
 
 .project_area a { display:block; width: 100%; height: 100%; }
 
 .project_img { 
-    width:100%; height:300px; 
+    width:100%; height:250px; 
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: contain; }
 
 .project_area li:nth-child(1) .project_img { background-image: url(../img/natuur_project.png);}
 .project_area li:nth-child(2) .project_img { background-size: 102%; background-image: url(../img/korail_project.png);}
-
-
  
 .project_con { 
-    position: relative;
     width:100%; height:150px;
     padding:4.3478vw;/*20px*/ box-sizing: border-box;  
     background-color: #6884c2; }
 
-.project_con span { color:#fff; font-size:15px; }   
+.project_con span { color:#fff; font-size:13px; }   
 
-.project_con span:first-child { float: left; font-size:17px; line-height:20px; }
+.project_con span:first-child { float: left; font-size:13px; line-height:18px; font-weight: 600;  }
 
-.project_con span:nth-child(2) { float: right; text-align: right; line-height:21px;  }
+.project_con span:nth-child(2) { float: right; text-align: right; line-height:19px;  }
 
-.project_area li:nth-child(3) { background-color: #9d9d9d; }
+.project_area .prepa { background-color: #9d9d9d; }
 .project_area li:nth-child(3) > span { 
-    display:block; font-size:25px; font-weight:600; text-align: center; margin-top:200px;  }
+    display:block; font-size:25px; font-weight:600; text-align: center; margin-top:100px; margin-bottom:100px; }
+
+.page_list { 
+    width:230px; height:30px; margin-top:80px; }
+
+.page_list > ul { width: 100%; height: 100%; }
+
+.page_list > ul > li { 
+    float: left; width:23%; height:100%;
+    font-size:13px; text-align: center; text-transform: uppercase;
+    line-height:27px; margin-right:6px; color:#fff;
+    border:1px solid #fff; box-sizing: border-box; } 
+
+.page_list > ul > li:last-child { margin-right:0; }
+
+.page_list > ul > li:hover { background-color: #fff; color:#6884c2; }
+
 
 
 /* ========================= */
@@ -675,19 +687,30 @@ button {
 
 .project_area li:nth-child(2) .project_img { background-image: url(../img/korail_project.png); }
 
-.project_area li:nth-child(3) { background-color: #9d9d9d; }
+.project_area .prepa { background-color: #9d9d9d; }
 .project_area li:nth-child(3) > span { 
     display:block; font-size:25px; font-weight:600; text-align: center; margin-top:100px;  }
 
 .project_con { 
     float: right; 
     width:50%; height:100%; 
-    padding:20px; box-sizing: border-box;
+    padding:1.6vw;/*10px*/ box-sizing: border-box;
     background-color: #6884c2; color:#fff; }
 
 .project_con span { display:block; font-size:15px; }
-.project_con span:first-child { font-size:17px; margin-bottom: 35px; font-weight: 600;  }
+.project_con span:first-child { font-size:17px; margin-bottom: 25px; font-weight: 600;  }
 
+.page_list { width:42.5vw;/*205px*/ max-width:245px; height:30px; margin-top:30px; }
+
+.page_list > ul { width: 100%; height: 100%; }
+
+.page_list > ul > li { 
+    float: left; width:23%; height:30px; 
+    font-size:13px; text-align: center; text-transform: uppercase; line-height:27px;
+    margin-right:5px; border:1px solid #fff; box-sizing: border-box; }
+.page_list > ul > li:last-child { margin-right:0; }
+
+.page_list > ul > li:hover { background-color: #fff; color:#6884c2; }
 
 /* ================== */
 #contact { 
@@ -772,7 +795,7 @@ button {
 
 /* main =====================  */
 #main {
-    width:100%;  height:auto; min-height:850px; 
+    width:100%;  height:100vh; 
     margin:auto; padding:10px; box-sizing: border-box; }
 
 #main > h2 { 
@@ -991,7 +1014,7 @@ button {
     background-size:85% auto; background-image: url(../img/natuur_project.png);}
 
 .project_area li:nth-child(2) .project_img { background-image: url(../img/korail_project.png);}
-.project_area li:nth-child(3) { background-color: #9d9d9d; }
+.project_area .prepa { background-color: #9d9d9d; }
 .project_area li:nth-child(3) > span { 
     display:block; font-size:30px; font-weight:600; text-align: center; margin-top:100px;  }
     
@@ -1004,7 +1027,21 @@ button {
     background-color: #6884c2; color:#fff; }
     
 .project_con span { display:block; font-size:15px; }
-.project_con span:first-child { font-size:17px; margin-bottom: 35px; font-weight: 600;  }
+.project_con span:first-child { font-size:17px; margin-bottom:20px; font-weight: 600;  }
+
+.page_list { width:348px; height:30px; margin-top:20px; }
+
+.page_list > ul { width: 100%; height: 100%; }
+
+.page_list > ul > li { 
+    float: left; 
+    width:23%; height:30px; 
+    font-size:15px; line-height:26px; text-align: center; text-transform: uppercase;
+    margin-right:9px; border:1px solid #fff;box-sizing: border-box; }
+.page_list > ul > li:last-child { margin-right:0; }
+
+.page_list li:hover { background-color: #6884c2; color:#fff; }
+
 
 /* ===================== */
 #contact { width:100%; height:400px; padding:50px 10px; box-sizing: border-box; }
