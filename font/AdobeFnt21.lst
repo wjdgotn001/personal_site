@@ -4,14 +4,14 @@
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
-OutlineFileName:D:\개인사이트\Font\NotoSans\README
+OutlineFileName:D:\개인사이트 - 작업용\Font\NotoSans\README
 FileModTime:1508840014
 %EndFont
 
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
-OutlineFileName:D:\개인사이트\Font\NotoSans\LICENSE_OFL.txt
+OutlineFileName:D:\개인사이트 - 작업용\Font\NotoSans\LICENSE_OFL.txt
 FileModTime:1508840016
 %EndFont
 
@@ -28,7 +28,7 @@ FamilyNameNative:Noto Sans CJK KR
 StyleNameNative:Black
 FullNameNative:Noto Sans CJK KR Black
 WritingScript:Korean
-OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansCJKkr-Black.otf
+OutlineFileName:D:\개인사이트 - 작업용\Font\NotoSans\NotoSansCJKkr-Black.otf
 DataFormat:sfntData
 isCFF:yes
 hasSVG:no
@@ -56,7 +56,7 @@ FamilyNameNative:Noto Sans CJK KR
 StyleNameNative:Bold
 FullNameNative:Noto Sans CJK KR Bold
 WritingScript:Korean
-OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansCJKkr-Bold.otf
+OutlineFileName:D:\개인사이트 - 작업용\Font\NotoSans\NotoSansCJKkr-Bold.otf
 DataFormat:sfntData
 isCFF:yes
 hasSVG:no
@@ -84,7 +84,7 @@ FamilyNameNative:Noto Sans CJK KR
 StyleNameNative:DemiLight
 FullNameNative:Noto Sans CJK KR DemiLight
 WritingScript:Korean
-OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansCJKkr-DemiLight.otf
+OutlineFileName:D:\개인사이트 - 작업용\Font\NotoSans\NotoSansCJKkr-DemiLight.otf
 DataFormat:sfntData
 isCFF:yes
 hasSVG:no
@@ -112,7 +112,7 @@ FamilyNameNative:Noto Sans CJK KR
 StyleNameNative:Light
 FullNameNative:Noto Sans CJK KR Light
 WritingScript:Korean
-OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansCJKkr-Light.otf
+OutlineFileName:D:\개인사이트 - 작업용\Font\NotoSans\NotoSansCJKkr-Light.otf
 DataFormat:sfntData
 isCFF:yes
 hasSVG:no
@@ -140,7 +140,7 @@ FamilyNameNative:Noto Sans CJK KR
 StyleNameNative:Medium
 FullNameNative:Noto Sans CJK KR Medium
 WritingScript:Korean
-OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansCJKkr-Medium.otf
+OutlineFileName:D:\개인사이트 - 작업용\Font\NotoSans\NotoSansCJKkr-Medium.otf
 DataFormat:sfntData
 isCFF:yes
 hasSVG:no
@@ -168,7 +168,7 @@ FamilyNameNative:Noto Sans CJK KR
 StyleNameNative:Regular
 FullNameNative:Noto Sans CJK KR Regular
 WritingScript:Korean
-OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansCJKkr-Regular.otf
+OutlineFileName:D:\개인사이트 - 작업용\Font\NotoSans\NotoSansCJKkr-Regular.otf
 DataFormat:sfntData
 isCFF:yes
 hasSVG:no
@@ -196,7 +196,7 @@ FamilyNameNative:Noto Sans CJK KR
 StyleNameNative:Thin
 FullNameNative:Noto Sans CJK KR Thin
 WritingScript:Korean
-OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansCJKkr-Thin.otf
+OutlineFileName:D:\개인사이트 - 작업용\Font\NotoSans\NotoSansCJKkr-Thin.otf
 DataFormat:sfntData
 isCFF:yes
 hasSVG:no
@@ -224,7 +224,7 @@ FamilyNameNative:Noto Sans Mono CJK KR
 StyleNameNative:Bold
 FullNameNative:Noto Sans Mono CJK KR Bold
 WritingScript:Korean
-OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansMonoCJKkr-Bold.otf
+OutlineFileName:D:\개인사이트 - 작업용\Font\NotoSans\NotoSansMonoCJKkr-Bold.otf
 DataFormat:sfntData
 isCFF:yes
 hasSVG:no
@@ -252,7 +252,7 @@ FamilyNameNative:Noto Sans Mono CJK KR
 StyleNameNative:Regular
 FullNameNative:Noto Sans Mono CJK KR Regular
 WritingScript:Korean
-OutlineFileName:D:\개인사이트\Font\NotoSans\NotoSansMonoCJKkr-Regular.otf
+OutlineFileName:D:\개인사이트 - 작업용\Font\NotoSans\NotoSansMonoCJKkr-Regular.otf
 DataFormat:sfntData
 isCFF:yes
 hasSVG:no
