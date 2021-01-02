@@ -772,7 +772,7 @@ button {
 
 /* main =====================  */
 #main {
-    width:100%; max-width:1440px; height:auto; min-height:800px; 
+    width:100%;  height:auto; min-height:850px; 
     margin:auto; padding:10px; box-sizing: border-box; }
 
 #main > h2 { 
@@ -950,14 +950,13 @@ button {
 
 .slide_area li {
      background-repeat: no-repeat;
-     background-position: 50% 50%;
-     background-size:contain; }
+     background-position: 50% 50%; }
 
-.process_01 { background-image: url(../img/process_01.jpg); }
-.process_02 { background-image: url(../img/process_02.jpg);}
-.process_03 { background-image: url(../img/process_03.jpg);}
-.process_04 { background-image: url(../img/process_04.jpg);}
-.process_05 { background-image: url(../img/process_05.jpg);}
+.process_01 { background-image: url(../img/process_01.jpg); background-size: cover; }
+.process_02 { background-image: url(../img/process_02.jpg); background-size:contain; }
+.process_03 { background-image: url(../img/process_03.jpg); background-size:contain; }
+.process_04 { background-image: url(../img/process_04.jpg); background-size:contain; }
+.process_05 { background-image: url(../img/process_05.jpg); background-size:contain; }
 
 
 /* ================= */
