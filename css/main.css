@@ -340,6 +340,7 @@ button {
 
 .project_area li:nth-child(1) .project_img { background-image: url(../img/natuur_project.png);}
 .project_area li:nth-child(2) .project_img { background-size: 102%; background-image: url(../img/korail_project.png);}
+.project_area li:nth-child(3) .project_img { background-size: 102%; background-image: url(../img/beyond_project.png);}
  
 .project_con { 
     width:100%; height:150px;
@@ -353,7 +354,7 @@ button {
 .project_con span:nth-child(2) { float: right; text-align: right; line-height:19px;  }
 
 .project_area .prepa { background-color: #9d9d9d; }
-.project_area li:nth-child(3) > span { 
+.project_area li:last-child > span { 
     display:block; font-size:25px; font-weight:600; text-align: center; margin-top:100px; margin-bottom:100px; }
 
 .page_list { 
@@ -682,13 +683,13 @@ button {
     background-repeat: no-repeat;
     background-size: contain; }
 
-.project_area li:nth-child(1) .project_img { 
-    background-size:90%; background-image: url(../img/natuur_project.png); }
-
+.project_area li:nth-child(1) .project_img { background-size:90%; background-image: url(../img/natuur_project.png); }
 .project_area li:nth-child(2) .project_img { background-image: url(../img/korail_project.png); }
+.project_area li:nth-child(3) .project_img { background-size: 102%; background-image: url(../img/beyond_project.png);}
+
 
 .project_area .prepa { background-color: #9d9d9d; }
-.project_area li:nth-child(3) > span { 
+.project_area li:last-child> span { 
     display:block; font-size:25px; font-weight:600; text-align: center; margin-top:100px;  }
 
 .project_con { 
@@ -1010,12 +1011,12 @@ button {
     background-size: contain;
     background-repeat: no-repeat; }
 
-.project_area li:nth-child(1) .project_img { 
-    background-size:85% auto; background-image: url(../img/natuur_project.png);}
-
+.project_area li:nth-child(1) .project_img { background-size:85% auto; background-image: url(../img/natuur_project.png);}
 .project_area li:nth-child(2) .project_img { background-image: url(../img/korail_project.png);}
+.project_area li:nth-child(3) .project_img { background-size: 102%; background-image: url(../img/beyond_project.png);}
+
 .project_area .prepa { background-color: #9d9d9d; }
-.project_area li:nth-child(3) > span { 
+.project_area li:last-child > span { 
     display:block; font-size:30px; font-weight:600; text-align: center; margin-top:100px;  }
     
 .project_img { float: left; width:50%; height:100%; }
